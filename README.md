@@ -24,3 +24,26 @@ All the integers in the array will be in the range of [-10000, 10000].
 **My solution:**
 ```python
 ```
+
+**Smarter solution**
+```python
+```
+
+**What I learn:**
+
+-----------------------------
+### .
+**LeetCode link:** 
+
+**Problem description:**
+
+**My solution:**
+```python
+```
+
+**Smarter solution**
+```python
+```
+
+**What I learn:**
+
