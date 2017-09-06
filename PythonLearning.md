@@ -33,7 +33,7 @@ Out[20]: [4, 5]
 **关于更多List**：https://developers.google.com/edu/python/lists
 
 
-* **sum**
+* **Sum**
 
 Documentation: sum(iterable[, start])
 即sum(,start),start默认为0，也可设为2、[]...
@@ -51,3 +51,37 @@ sum(num,[])
 Out[57]: [1, 2, 3, 4]
 #意味着[]+[1,2]+[3,4]
 ```
+
+
+* **iter()**
+# list of vowels
+```python
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+vowelsIter = iter(vowels)
+
+# prints 'a'
+print(next(vowelsIter))
+
+# prints 'e'
+print(next(vowelsIter))
+
+# prints 'i'
+print(next(vowelsIter))
+
+# prints 'o'
+print(next(vowelsIter))
+
+# prints 'u'
+print(next(vowelsIter))
+```
+
+
+* **zip()**
+The syntax of zip() is:
+```python
+zip(*iterables)
+```
+
+
+
