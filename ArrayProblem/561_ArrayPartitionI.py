@@ -31,5 +31,10 @@ class Solution(object):
             if i%2==0:
                 sum+=nums[i]
         return sum
-#Thought: every other number starting from the second largest number is adopted.
+    
+'''Thought: every other number starting from the second largest number is adopted.'''
+
+
+
+
 
