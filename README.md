@@ -10,40 +10,21 @@ LeetCode practice using python language
 **Problem description:**
 Given an array of 2n integers, your task is to group these integers into n pairs of integer, say (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
 
-Example 1:
-```python
-Input: [1,4,3,2]
+-----------------------------
+### 566. Reshape the Matrix
+**LeetCode link:** https://leetcode.com/problems/reshape-the-matrix/description/
 
-Output: 4
-Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).
-```
-Note:
-n is a positive integer, which is in the range of [1, 10000].
-All the integers in the array will be in the range of [-10000, 10000].
+**Problem description:**
+In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.
 
-**My solution:**
-```python
-```
+You're given a matrix represented by a two-dimensional array, and two positive integers r and c representing the row number and column number of the wanted reshaped matrix, respectively.
 
-**Smarter solution**
-```python
-```
+The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.
 
-**What I learn:**
+If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 
 -----------------------------
 ### .
 **LeetCode link:** 
 
 **Problem description:**
-
-**My solution:**
-```python
-```
-
-**Smarter solution**
-```python
-```
-
-**What I learn:**
-
