@@ -54,8 +54,9 @@ Out[57]: [1, 2, 3, 4]
 
 
 * **iter()**
-# list of vowels
+
 ```python
+# list of vowels
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 vowelsIter = iter(vowels)
