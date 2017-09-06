@@ -20,3 +20,5 @@ class Solution(object):
 #smarter solution
 
 
+#every other number starting from the second largest number is adopted.
+
