@@ -32,3 +32,20 @@ Out[20]: [4, 5]
 ```
 **关于更多List**：https://developers.google.com/edu/python/lists
 
+* **sum**
+Documentation: sum(iterable[, start])
+即sum(,start),start默认为0，也可设为2、[]...
+```python
+sum((1,2))
+Out[52]: 3
+
+sum((1,2),3)
+Out[53]: 6
+
+num
+Out[56]: [[1, 2], [3, 4]]
+
+sum(num,[])
+Out[57]: [1, 2, 3, 4]
+#意味着[]+[1,2]+[3,4]
+```
