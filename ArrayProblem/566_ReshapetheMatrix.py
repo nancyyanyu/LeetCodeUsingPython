@@ -20,9 +20,24 @@ class Solution(object):
         :type c: int
         :rtype: List[List[int]]
         """
+        product=len(nums)*len(nums[0])
+        if r*c!=product:
+            res=nums
+        else:
+            l=[]
+            for i in nums:
+                for j in i:
+                    l.append(j)
+            res=[]
+            count=-1
+            for k in range(r):
+                res.append([])
+                for t in range(c):
+                    count+=1
+                    res[k].append(l[count])
+        return res
         
-
 #smarter solution
 
 
-'''Thought: every other number starting from the second largest number is adopted.'''
+'''Thought: .'''
