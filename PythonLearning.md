@@ -32,7 +32,9 @@ Out[20]: [4, 5]
 ```
 **关于更多List**：https://developers.google.com/edu/python/lists
 
+
 * **sum**
+
 Documentation: sum(iterable[, start])
 即sum(,start),start默认为0，也可设为2、[]...
 ```python
