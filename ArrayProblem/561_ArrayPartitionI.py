@@ -17,8 +17,19 @@ class Solution(object):
             res=res+sortlist[i*2]
         return res
 
+#smarter solution-one line answer 
+class Solution(object):
+    def arrayPairSum(self, nums):
+        return sum(nums.sort()[::2])
+    
 #smarter solution
-
-
-#every other number starting from the second largest number is adopted.
+class Solution(object):
+    def arrayPairSum(self, nums):
+        nums.sort()
+        sum=0
+        for i in range(len(nums)):
+            if i%2==0:
+                sum+=nums[i]
+        return sum
+#Thought: every other number starting from the second largest number is adopted.
 
