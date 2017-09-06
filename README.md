@@ -2,6 +2,7 @@
 LeetCode practice using python language
 ## List
 * #561. Array Partition I
+* #566. Reshape the Matrix
 
 ## Array
 ### 561. Array Partition I
