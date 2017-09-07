@@ -1,5 +1,8 @@
 # LeetCodeUsingPython
 LeetCode practice using python language
+
+[python learning note](https://github.com/nancyyanyu/LeetCodeUsingPython/blob/master/PythonLearning.md)
+
 ## Problem List
 * #561. Array Partition I
 * #566. Reshape the Matrix
