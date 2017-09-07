@@ -7,6 +7,8 @@ LeetCode practice using python language
 * #485. Max Consecutive Ones
 * #667. Beautiful Arrangement II
 * #027. Remove Element
+* #039. Combination Sum
+
 
 
 ## Array
@@ -117,13 +119,21 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 **Thought:** 
 
+我的做法是利用了语言特性。但不如第二个参考答案用的好。首先remove(int)按照顺序删去指定int，count(obj)可以得出list中obj的个数。
+参考答案一更机智。通过设定起始index，在遇到val时把当下数字和end对换，start点不变，end点前移，leave a 'val' behind.不遇到val则start点前移，
+直到end超过start时取nums中前start个数字
+
 -----------------------------
 
 
-###  
-**LeetCode link:** 
+###  039. Combination Sum
+**LeetCode link:** https://leetcode.com/problems/combination-sum/description/
 
 **Problem description:**
+
+Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+
+The same repeated number may be chosen from C unlimited number of times.
 
 **Thought:** 
 
@@ -138,3 +148,13 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 **Thought:** 
 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
