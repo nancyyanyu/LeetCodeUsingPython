@@ -38,6 +38,22 @@ class Solution(object):
         return res
         
 #smarter solution
-
-
-'''Thought: .'''
+class Solution(object):
+    def matrixReshape(self, nums, r, c):
+        flat=sum(nums,[])
+        if len(flat)!=r*c:
+            return nums
+        res=zip(*([iter(flat)]*c))
+        return map(list,res)
+    
+#smarter solution - one line
+class Solution(object):
+    def matrixReshape(self, nums, r, c):
+        return nums if len(sum(nums,[])!=r*c else map(list,zip(*([iter(sum(nums,[]))]*c)))
+                           
+'''
+Thought: 
+1. sum(,[])
+2. zip(*([iter(flat)]*c))
+3. 运行到return直接结束
+'''
