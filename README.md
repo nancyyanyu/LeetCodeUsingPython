@@ -5,7 +5,7 @@ LeetCode practice using python language
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
 * #485. Max Consecutive Ones
-
+* #667. Beautiful Arrangement II
 
 ## Array
 ### 561. Array Partition I
@@ -73,15 +73,21 @@ Given a binary array, find the maximum number of consecutive 1s in this array.
 
 **Thought:** 
 
-
+My answer is to change the original list and don't forget to refer the former index. Other solution renews the maximum number 
+every iteration.
 
 -----------------------------
 
 
-###  
-**LeetCode link:** 
+###  667. Beautiful Arrangement II
+**LeetCode link:** https://leetcode.com/problems/beautiful-arrangement-ii/description/
 
 **Problem description:**
+
+Given two integers n and k, you need to construct a list which contains n different positive integers ranging from 1 to n and obeys the following requirement: 
+Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly k distinct integers.
+
+If there are multiple answers, print any of them.
 
 **Thought:** 
 
