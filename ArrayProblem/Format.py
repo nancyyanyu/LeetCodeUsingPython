@@ -6,7 +6,7 @@
 #my solution
 
 
-#smarter solution-one line answer 
+#smarter solution
 
 
 
