@@ -85,4 +85,17 @@ zip(*iterables)
 ```
 
 
+* **zip(*[iter(s)]*n)**
+iter(s) returns an iterator for s.
+
+[iter(s)]*n makes a list of n times the same iterator for s.
+```python
+[iter(l)]*3
+Out[80]: 
+[<listiterator at 0xbad4b38>,
+ <listiterator at 0xbad4b38>,
+ <listiterator at 0xbad4b38>]
+ ```
+So, when doing zip(*[iter(s)]*n), it **extracts an item from all the three iterators from the list in order**. Since all the iterators are the same object, it just groups the list in chunks of n.
+
 
