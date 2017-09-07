@@ -12,6 +12,9 @@ LeetCode practice using python language
 **Problem description:**
 Given an array of 2n integers, your task is to group these integers into n pairs of integer, say (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
 
+**Thought:** 
+every other number starting from the second largest number is adopted.
+
 -----------------------------
 
 ### 566. Reshape the Matrix
@@ -26,6 +29,11 @@ The reshaped matrix need to be filled with all the elements of the original matr
 
 If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 
+**Thought:** 
+1. sum(,[])
+2. zip(*([iter(flat)]*c))
+3. 运行到return直接结束
+
 -----------------------------
 
 ### 442. Find All Duplicates in an Array
@@ -37,6 +45,10 @@ Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements 
 Find all the elements that appear twice in this array.
 
 Could you do it without extra space and in O(n) runtime?
+
+**Thought:** 所有元素都在1~len(nums)之间，所以所有元素减一都可以对应到nums的某个index上。
+遍历每个元素，其减一作为index标记对应元素负号，由于所有元素都是正的，对应到的元素如果是负的，说明之前标记过，
+即本元素是重复的，则append到结果中
 
 -----------------------------
 
