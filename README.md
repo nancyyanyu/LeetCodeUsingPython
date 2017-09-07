@@ -1,9 +1,11 @@
 # LeetCodeUsingPython
 LeetCode practice using python language
-## List
+## Problem List
 * #561. Array Partition I
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
+* #485. Max Consecutive Ones
+
 
 ## Array
 ### 561. Array Partition I
@@ -46,13 +48,40 @@ Find all the elements that appear twice in this array.
 
 Could you do it without extra space and in O(n) runtime?
 
-**Thought:** 所有元素都在1~len(nums)之间，所以所有元素减一都可以对应到nums的某个index上。
+**Thought:** 
+所有元素都在1~len(nums)之间，所以所有元素减一都可以对应到nums的某个index上。
 遍历每个元素，其减一作为index标记对应元素负号，由于所有元素都是正的，对应到的元素如果是负的，说明之前标记过，
 即本元素是重复的，则append到结果中
 
 -----------------------------
 
-### .
+###  485. Max Consecutive Ones
+**LeetCode link:** https://leetcode.com/problems/max-consecutive-ones/description/
+
+**Problem description:**
+Given a binary array, find the maximum number of consecutive 1s in this array.
+
+**Thought:** 
+
+
+
+-----------------------------
+
+###  
 **LeetCode link:** 
 
 **Problem description:**
+
+**Thought:** 
+
+
+-----------------------------
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
+
+
