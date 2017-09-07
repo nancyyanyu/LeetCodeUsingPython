@@ -80,6 +80,17 @@ print(next(vowelsIter))
 
 * **zip()**
 
+```python
+>>> x = [1, 2, 3]
+>>> y = [4, 5, 6]
+>>> zipped = zip(x, y)
+>>> zipped
+[(1, 4), (2, 5), (3, 6)]
+>>> x2, y2 = zip(*zipped)
+>>> x == list(x2) and y == list(y2)
+True
+```
+
 The syntax of zip() is:
 ```python
 zip(*iterables)
