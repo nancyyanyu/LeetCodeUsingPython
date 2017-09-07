@@ -151,3 +151,34 @@ iter() is an iterator over a sequence. [x] * n produces a list containing n quan
 *:"Arbitrary Argument List" and it's useful here as it expands our list to pass each of the lists within the outer list as an arguments to zip and map.
 
 
+* **remove() & del**
+list.remove(obj)和del list[i]都无返回值
+```python
+l=[2,3,4,6,3,7]
+
+l.remove(3)
+
+l
+Out[151]: [2, 4, 6, 3, 7]
+
+l.remove(l[2])
+
+l
+Out[153]: [2, 4, 3, 7]
+
+del l[-1]
+
+l
+Out[155]: [2, 4, 3]
+```
+
+
+* **count()**
+```python
+l=[1,2,3,4,2,2,2,4]
+
+l.count(2)
+Out[158]: 4
+```
+
+
