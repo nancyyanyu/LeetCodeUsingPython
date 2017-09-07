@@ -86,6 +86,7 @@ zip(*iterables)
 
 
 * **zip(*[iter(s)]*n)**
+
 iter(s) returns an iterator for s.
 
 [iter(s)]*n makes a list of n times the same iterator for s.
