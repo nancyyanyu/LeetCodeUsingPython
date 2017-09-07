@@ -6,6 +6,8 @@ LeetCode practice using python language
 * #442. Find All Duplicates in an Array
 * #485. Max Consecutive Ones
 * #667. Beautiful Arrangement II
+* #027. Remove Element
+
 
 ## Array
 ### 561. Array Partition I
@@ -102,10 +104,16 @@ This is just the answer above translated by n-k-1: we'll put [n-k, n, n-k+1, n-1
 -----------------------------
 
 
-###  
-**LeetCode link:** 
+###  027. Remove Element
+**LeetCode link:** https://leetcode.com/problems/remove-element/description/
 
 **Problem description:**
+
+Given an array and a value, remove all instances of that value in place and return the new length.
+
+Do not allocate extra space for another array, you must do this in place with constant memory.
+
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 **Thought:** 
 
@@ -119,4 +127,14 @@ This is just the answer above translated by n-k-1: we'll put [n-k, n, n-k+1, n-1
 
 **Thought:** 
 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
 
