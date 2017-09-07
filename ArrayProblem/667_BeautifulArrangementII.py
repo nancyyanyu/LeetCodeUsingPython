@@ -7,6 +7,9 @@ Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|
 If there are multiple answers, print any of them.'''
 
 #my solution
+#
+
+#smarter solution
 class Solution(object):
     def constructArray(self, n, k):
         """
@@ -21,9 +24,6 @@ class Solution(object):
             else:
                 res.append(n-i/2)
         return res
-
-#smarter solution
-
 
 
 '''Thought: When k = n-1, a valid construction is [1, n, 2, n-1, 3, n-2, ....]. 
