@@ -79,13 +79,20 @@ print(next(vowelsIter))
 
 
 * **zip()**
+
 The syntax of zip() is:
 ```python
 zip(*iterables)
 ```
+zip(*) - join the nth items of each list together
+```python
+>>> my_list=[[1,2,3],[4,5,6],[7,8,9,10]]
+>>> print zip(*my_list)
+[(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+```
 
 
-* **zip(*[iter(s)]*n)**
+* zip(*[iter(s)]*n)
 
 iter(s) returns an iterator for s.
 
@@ -98,5 +105,19 @@ Out[80]:
  <listiterator at 0xbad4b38>]
  ```
 So, when doing zip(*[iter(s)]*n), it **extracts an item from all the three iterators from the list in order**. Since all the iterators are the same object, it just groups the list in chunks of n.
+
+
+
+* **map( function, list, ...)**
+
+**Apply function to every item of list and return a list of the results.** If additional list arguments are passed, function must take that many arguments and is applied to the items of all lists in parallel; **if a list is shorter than another it is assumed to be extended with None items.** If function is None, the identity function is assumed; if there are multiple list arguments, map() returns a list consisting of **tuples** containing the corresponding items from all lists (a kind of transpose operation). The list arguments may be any kind of sequence; the result is always a list.
+
+```python
+>>> my_list=[[1,2,3],[4,5,6],[7,8,9,10]]
+>>> print map(None,*my_list)
+[(1, 4, 7), (2, 5, 8), (3, 6, 9), (None, None, 10)]
+```
+
+*:"Arbitrary Argument List" and it's useful here as it expands our list to pass each of the lists within the outer list as an arguments to zip and map.
 
 
