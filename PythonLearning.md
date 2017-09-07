@@ -103,6 +103,23 @@ zip(*) - join the nth items of each list together
 ```
 
 
+
+* **Difference of zip() and zip(*list)**
+
+```python
+my_list=[[1,2,3],[4,5,6],[7,8,9,10]]
+
+zip(my_list)
+Out[84]: [([1, 2, 3],), ([4, 5, 6],), ([7, 8, 9, 10],)]
+
+zip([1,2,3],[4,5,6],[7,8,9])
+Out[85]: [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+```
+
+zip wants a bunch of arguments to zip together, but what you have is a single argument (a list, whose elements are also lists). The * in a function call "unpacks" a list (or other iterable), making each of its elements a separate argument. So without the *, you're doing zip( [[1,2,3],[4,5,6]] ). With the *, you're doing zip([1,2,3], [4,5,6]).
+
+
+
 * zip(*[iter(s)]*n)
 
 iter(s) returns an iterator for s.
@@ -116,6 +133,8 @@ Out[80]:
  <listiterator at 0xbad4b38>]
  ```
 So, when doing zip(*[iter(s)]*n), it **extracts an item from all the three iterators from the list in order**. Since all the iterators are the same object, it just groups the list in chunks of n.
+
+iter() is an iterator over a sequence. [x] * n produces a list containing n quantity of x, i.e. a list of length n, where each element is x. *arg unpacks a sequence into arguments for a function call. Therefore you're passing the same iterator 3 times to zip(), and it pulls an item from the iterator each time.
 
 
 
