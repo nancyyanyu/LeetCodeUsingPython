@@ -152,7 +152,9 @@ iter() is an iterator over a sequence. [x] * n produces a list containing n quan
 
 
 * **remove() & del**
+
 list.remove(obj)和del list[i]都无返回值
+
 ```python
 l=[2,3,4,6,3,7]
 
@@ -174,6 +176,7 @@ Out[155]: [2, 4, 3]
 
 
 * **count()**
+
 ```python
 l=[1,2,3,4,2,2,2,4]
 
