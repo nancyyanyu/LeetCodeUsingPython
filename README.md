@@ -11,7 +11,7 @@ LeetCode practice using python language
 * #667. Beautiful Arrangement II
 * #027. Remove Element
 * #039. Combination Sum
-
+* #766. Toeplitz Matrix
 
 
 ## Array
@@ -144,6 +144,22 @@ The same repeated number may be chosen from C unlimited number of times.
 -----------------------------
 
 
+###  766. Toeplitz Matrix
+**LeetCode link:** https://leetcode.com/problems/toeplitz-matrix/description/ 
+
+**Problem description:**
+
+A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
+
+Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
+ 
+**Thought:** 
+
+Think really carefully about the relationship between i and j.
+
+-----------------------------
+
+
 ###  
 **LeetCode link:** 
 
@@ -151,6 +167,55 @@ The same repeated number may be chosen from C unlimited number of times.
 
 **Thought:** 
 
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
+
+-----------------------------
+
+
+###  
+**LeetCode link:** 
+
+**Problem description:**
+
+**Thought:** 
 
 -----------------------------
 
