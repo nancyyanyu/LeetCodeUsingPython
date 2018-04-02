@@ -4,6 +4,7 @@ LeetCode practice using python language
 [python learning note](https://github.com/nancyyanyu/LeetCodeUsingPython/blob/master/PythonLearning.md)
 
 ## Problem List
+* #001. Two Sum
 * #561. Array Partition I
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
@@ -160,13 +161,25 @@ Think really carefully about the relationship between i and j.
 -----------------------------
 
 
-###  
-**LeetCode link:** 
+###  001. Two Sum
+**LeetCode link:** https://leetcode.com/problems/two-sum/description/
 
 **Problem description:**
 
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+
+
 **Thought:** 
 
+直接通过，但还需要仔细。
 -----------------------------
 
 
