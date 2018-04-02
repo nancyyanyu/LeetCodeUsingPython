@@ -29,19 +29,8 @@ every other number starting from the second largest number is adopted.
 
 -----------------------------
 
-
 ### 566. Reshape the Matrix
 **LeetCode link:** https://leetcode.com/problems/reshape-the-matrix/description/
-
-**Problem description:**
-
-In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.
-
-You're given a matrix represented by a two-dimensional array, and two positive integers r and c representing the row number and column number of the wanted reshaped matrix, respectively.
-
-The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.
-
-If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 
 **Thought:** 
 
@@ -55,14 +44,6 @@ If the 'reshape' operation with given parameters is possible and legal, output t
 ### 442. Find All Duplicates in an Array
 **LeetCode link:** https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 
-**Problem description:**
-
-Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
-
-Find all the elements that appear twice in this array.
-
-Could you do it without extra space and in O(n) runtime?
-
 **Thought:** 
 
 所有元素都在1~len(nums)之间，所以所有元素减一都可以对应到nums的某个index上。
@@ -71,13 +52,8 @@ Could you do it without extra space and in O(n) runtime?
 
 -----------------------------
 
-
 ###  485. Max Consecutive Ones
 **LeetCode link:** https://leetcode.com/problems/max-consecutive-ones/description/
-
-**Problem description:**
-
-Given a binary array, find the maximum number of consecutive 1s in this array.
 
 **Thought:** 
 
@@ -86,16 +62,8 @@ every iteration.
 
 -----------------------------
 
-
 ###  667. Beautiful Arrangement II
 **LeetCode link:** https://leetcode.com/problems/beautiful-arrangement-ii/description/
-
-**Problem description:**
-
-Given two integers n and k, you need to construct a list which contains n different positive integers ranging from 1 to n and obeys the following requirement: 
-Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly k distinct integers.
-
-If there are multiple answers, print any of them.
 
 **Thought:** 
 
@@ -109,17 +77,8 @@ This is just the answer above translated by n-k-1: we'll put [n-k, n, n-k+1, n-1
 
 -----------------------------
 
-
 ###  027. Remove Element
 **LeetCode link:** https://leetcode.com/problems/remove-element/description/
-
-**Problem description:**
-
-Given an array and a value, remove all instances of that value in place and return the new length.
-
-Do not allocate extra space for another array, you must do this in place with constant memory.
-
-The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 **Thought:** 
 
@@ -129,112 +88,93 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 -----------------------------
 
-
 ###  039. Combination Sum
 **LeetCode link:** https://leetcode.com/problems/combination-sum/description/
 
-**Problem description:**
-
-Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
-
-The same repeated number may be chosen from C unlimited number of times.
-
 **Thought:** 
 
-
 -----------------------------
-
 
 ###  766. Toeplitz Matrix
 **LeetCode link:** https://leetcode.com/problems/toeplitz-matrix/description/ 
 
-**Problem description:**
-
-A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
-
-Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
- 
 **Thought:** 
 
 Think really carefully about the relationship between i and j.
 
 -----------------------------
 
-
 ###  001. Two Sum
 **LeetCode link:** https://leetcode.com/problems/two-sum/description/
 
-**Problem description:**
+**Thought:** 
 
-Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+-----------------------------
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-Example:
-Given nums = [2, 7, 11, 15], target = 9,
-
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
-
+###  
+**LeetCode link:** 
 
 **Thought:** 
 
 -----------------------------
 
-
 ###  
 **LeetCode link:** 
-
-**Problem description:**
 
 **Thought:** 
 
 -----------------------------
 
-
 ###  
 **LeetCode link:** 
-
-**Problem description:**
 
 **Thought:** 
 
 -----------------------------
 
-
 ###  
 **LeetCode link:** 
-
-**Problem description:**
 
 **Thought:** 
 
 -----------------------------
 
-
 ###  
 **LeetCode link:** 
-
-**Problem description:**
 
 **Thought:** 
 
 -----------------------------
 
-
 ###  
 **LeetCode link:** 
-
-**Problem description:**
 
 **Thought:** 
 
 -----------------------------
 
+###  
+**LeetCode link:** 
+
+**Thought:** 
+
+-----------------------------
 
 ###  
 **LeetCode link:** 
 
-**Problem description:**
+**Thought:** 
+
+-----------------------------
+
+###  
+**LeetCode link:** 
+
+**Thought:** 
+
+-----------------------------
+
+###  
+**LeetCode link:** 
 
 **Thought:** 
