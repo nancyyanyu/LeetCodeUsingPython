@@ -6,6 +6,7 @@ LeetCode practice using python language
 ## Problem List
 * #001. Two Sum
 * #004. Median of Two Sorted Arrays
+* #016. 3Sum Closest
 * #015. 3Sum
 * #561. Array Partition I
 * #566. Reshape the Matrix
@@ -131,10 +132,10 @@ Note the median is used for dividing a set into two equal length subsets, that o
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  016. 3Sum Closest
+**LeetCode link:** https://leetcode.com/problems/3sum-closest/description/
 
-**Thought:** 
+**Thought:** same idea as 015. 3Sum, left and right index is a useful way to reduce time from N^3 to N^2
 
 -----------------------------
 
