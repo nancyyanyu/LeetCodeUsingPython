@@ -8,6 +8,12 @@ LeetCode practice using python language
 * #004. Median of Two Sorted Arrays
 * #016. 3Sum Closest
 * #015. 3Sum
+* #018. 4Sum
+* #0
+* #0
+* #0
+* #0
+* #0
 * #561. Array Partition I
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
@@ -139,10 +145,10 @@ Note the median is used for dividing a set into two equal length subsets, that o
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  018. 4Sum
+**LeetCode link:** https://leetcode.com/problems/4sum/description/
 
-**Thought:** 
+**Thought:** pass
 
 -----------------------------
 
