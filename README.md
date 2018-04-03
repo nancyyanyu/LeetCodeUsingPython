@@ -6,6 +6,7 @@ LeetCode practice using python language
 ## Problem List
 * #001. Two Sum
 * #004. Median of Two Sorted Arrays
+* #015. 3Sum
 * #561. Array Partition I
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
@@ -123,10 +124,10 @@ Note the median is used for dividing a set into two equal length subsets, that o
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  015. 3Sum
+**LeetCode link:** https://leetcode.com/problems/3sum/description/
 
-**Thought:** 
+**Thought:** carefully deal with duplicate; use 'left' and 'right' index to narrow the inner loop.
 
 -----------------------------
 
