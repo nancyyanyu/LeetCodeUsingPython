@@ -5,6 +5,7 @@ LeetCode practice using python language
 
 ## Problem List
 * #001. Two Sum
+* #004. Median of Two Sorted Arrays
 * #561. Array Partition I
 * #566. Reshape the Matrix
 * #442. Find All Duplicates in an Array
@@ -111,10 +112,14 @@ Think really carefully about the relationship between i and j.
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  004. Median of Two Sorted Arrays
+**LeetCode link:** https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 
-**Thought:** 
+**Thought: **
+
+hard.
+Use binary search.
+Note the median is used for dividing a set into two equal length subsets, that one subset is always greater than the other
 
 -----------------------------
 
