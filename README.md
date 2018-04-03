@@ -6,21 +6,21 @@ LeetCode practice using python language
 ## Problem List
 * #001. Two Sum
 * #004. Median of Two Sorted Arrays
-* #016. 3Sum Closest
 * #015. 3Sum
+* #016. 3Sum Closest
 * #018. 4Sum
+* #026. Remove Duplicates from Sorted Array
+* #027. Remove Element
 * #0
 * #0
 * #0
 * #0
-* #0
-* #561. Array Partition I
-* #566. Reshape the Matrix
+* #039. Combination Sum
 * #442. Find All Duplicates in an Array
 * #485. Max Consecutive Ones
+* #561. Array Partition I
+* #566. Reshape the Matrix
 * #667. Beautiful Arrangement II
-* #027. Remove Element
-* #039. Combination Sum
 * #766. Toeplitz Matrix
 
 
@@ -153,9 +153,9 @@ Note the median is used for dividing a set into two equal length subsets, that o
 -----------------------------
 
 ###  
-**LeetCode link:** 
+**LeetCode link:** 026. Remove Duplicates from Sorted Array
 
-**Thought:** 
+**Thought:** pass
 
 -----------------------------
 
