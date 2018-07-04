@@ -12,10 +12,13 @@ LeetCode practice using python language
 * #026. Remove Duplicates from Sorted Array
 * #027. Remove Element
 * #0
-* #0
-* #0
-* #0
+* #035. Search Insert Position
+
 * #039. Combination Sum
+* #041. First Missing Positive
+
+
+* #055. Jump Game
 * #442. Find All Duplicates in an Array
 * #485. Max Consecutive Ones
 * #561. Array Partition I
@@ -152,31 +155,31 @@ Note the median is used for dividing a set into two equal length subsets, that o
 
 -----------------------------
 
-###  
-**LeetCode link:** 026. Remove Duplicates from Sorted Array
+###  026. Remove Duplicates from Sorted Array
 
+**LeetCode link:** 
 **Thought:** pass
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  55. Jump Game
+**LeetCode link:** https://leetcode.com/problems/jump-game/description/
 
-**Thought:** 
-
------------------------------
-
-###  
-**LeetCode link:** 
-
-**Thought:** 
+**Thought:** 当碰到0的时候判断现在的maximum jump是否大于尾数，maximum jump想象成汽油，你能驶过的距离是现在已经驶过的距离加上这一站的汽油量nums[i]，记录行程中这个汽油量的最大值。
 
 -----------------------------
 
-###  
-**LeetCode link:** 
+###  35. Search Insert Position
+**LeetCode link:** https://leetcode.com/problems/search-insert-position/description/
 
-**Thought:** 
+**Thought:** easy
+
+-----------------------------
+
+###  41. First Missing Positive
+**LeetCode link:** https://leetcode.com/problems/first-missing-positive/description/
+
+**Thought:** 好好使用set的功能
 
 -----------------------------
 
