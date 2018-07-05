@@ -12,13 +12,19 @@ LeetCode practice using python language
 * #026. Remove Duplicates from Sorted Array
 * #027. Remove Element
 * #0
+* #0
 * #035. Search Insert Position
-
+* #0
 * #039. Combination Sum
 * #041. First Missing Positive
-
+* #0
+* #053. Maximum Subarray
 
 * #055. Jump Game
+* #0
+* #066. Plus One
+
+* #0
 * #442. Find All Duplicates in an Array
 * #485. Max Consecutive Ones
 * #561. Array Partition I
@@ -183,11 +189,53 @@ Note the median is used for dividing a set into two equal length subsets, that o
 
 -----------------------------
 
+###  66. Plus One
+
+**LeetCode link:** https://leetcode.com/problems/plus-one/description/
+
+**Thought:** easy
+
+-----------------------------
+
+###  53. Maximum Subarray
+**LeetCode link:** https://leetcode.com/problems/maximum-subarray/description/
+
+**Thought:** O(n)tims-Kadane's algorithm https://en.wikipedia.org/wiki/Maximum_subarray_problem
+A bit of a background: Kadane's algorithm is based on splitting up the set of possible solutions into mutually exclusive (disjoint) sets. It exploits the fact that any solution (i.e., any member of the set of solutions) will always have a last element {\displaystyle i} i (this is what is meant by "sum ending at position {\displaystyle i} i"). Thus, we simply have to examine, one by one, the set of solutions whose last element's index is {\displaystyle 1} 1, the set of solutions whose last element's index is {\displaystyle 2} 2, then {\displaystyle 3} 3, and so forth to {\displaystyle n} n. It turns out that this process can be carried out in linear time.
+Kadane's algorithm begins with a simple inductive question: if we know the maximum subarray sum ending at position {\displaystyle i} i (call this {\displaystyle B_{i}} B_{i}), what is the maximum subarray sum ending at position {\displaystyle i+1} i+1 (equivalently, what is {\displaystyle B_{i+1}} B_{{i+1}})? The answer turns out to be relatively straightforward: either the maximum subarray sum ending at position {\displaystyle i+1} i+1 includes the maximum subarray sum ending at position {\displaystyle i} i as a prefix, or it doesn't (equivalently, {\displaystyle B_{i+1}=max(A_{i+1},A_{i+1}+B_{i})} {\displaystyle B_{i+1}=max(A_{i+1},A_{i+1}+B_{i})}, where {\displaystyle A_{i+1}} A_{i+1} is the element at index {\displaystyle i+1} i+1).
+
+
+
+-----------------------------
+
 ###  
 **LeetCode link:** 
 
 **Thought:** 
+-----------------------------
 
+###  
+**LeetCode link:** 
+
+**Thought:** 
+-----------------------------
+
+###  
+**LeetCode link:** 
+
+**Thought:** 
+-----------------------------
+
+###  
+**LeetCode link:** 
+
+**Thought:** 
+-----------------------------
+
+###  
+**LeetCode link:** 
+
+**Thought:** 
 -----------------------------
 
 ###  
